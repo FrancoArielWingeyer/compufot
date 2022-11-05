@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+
+/* reset */
+
+.bg-light{
+	background-color:black;
+	
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/backgrounds/fondo.jpg);
+	background-attachment: fixed;;
+}
+
+h1,h2,h3{
+	color: #5e81f3;
+	font-family: 'Quintessential', cursive;
+	text-align: center;
+	
+}
+
+
+p{
+	color: #25a15d;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.144);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	align-items: center;
+
+
+	}
+
+	nav ul{
+		display: flex;
+		
+	/*display*/
+
+	}
+
+		nav ul li{
+			list-style: none;
+			margin-right: 20px;
+			/*margin*/
+			
+		}
+/* clases camelCase  */
+
+
+.bgLight{
+	background-color:rgba(0, 0, 0, 0.8) ;
+	height: auto;
+	border: ridge rgb(83, 83, 83);
+	width: 95%;
+	margin: 70px auto;
+}
+
+.bgDark{
+	background-color: rgba(8, 3, 3, 0.8);
+	height: auto;
+	border: ridge grey;
+	width: 95%;
+	margin: 70px auto;
+}
+
+.encabezado__img{
+	text-align: center;
+	height: auto;
+	margin: 20px auto;
+	width: 100%;
+	/*size*/
+	
+}
+
+
+.logo--compufot{
+	border: ridge grey;
+	margin:auto;
+	width:50%;
+}
+
+.Nosotros__titulo--xxl{
+	font-size: 4rem;
+	
+}
+
+
+.Nosotros__titulo--xl{
+	font-size: 3rem;
+}
+
+.Nosotros__titulo--md{
+	font-size: 2rem;
+	text-align: center;
+
+	/*margin*/
+	
+}
+.pie{
+	text-align: center;
+	/*padding*/
+	
+}
+
+
+.pie__titulo--md{
+	font-size: 2rem;
+}
+/******************************************* Botonera **********************************************/
+.bg-black{
+	background-color: rgba(34, 23, 23, 0.87);
+}
+
+#Botonera ul li a{
+	font-size: 2.8rem;
+	text-decoration: none;
+	color: #25a15d;
+
+}
